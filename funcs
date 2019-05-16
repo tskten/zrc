@@ -1,0 +1,29 @@
+#!/bin/zsh
+scst() {
+    echo -e "start \e[1m\e[92m$@\e[39m\e[21m"
+    systemctl start "$@"
+}
+
+scsp() {
+    echo -e "stop \e[1m$@\e[21m"
+    systemctl stop "$@"
+}
+
+scrt() {
+    echo -e "restart \e[1m$@\e[21m"
+    systemctl restart "$@"
+}
+
+scen() {
+    echo -e "enable \e[1m$@\e[21m"
+    systemctl enable "$@"
+}
+
+scds() {
+    echo -e "disable \e[1m$@\e[21m"
+    systemctl disable "$@"
+}
+
+ct() {
+	echo -e "\e[$2m$1\e[0m"
+}

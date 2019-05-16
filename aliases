@@ -1,0 +1,96 @@
+#!/bin/zsh
+
+alias l='ll -A'
+alias lc='lt -c'
+alias lk='ll -Sr'
+alias ll='ls -lh'
+alias lm='l | less'
+alias ln='ln -v'
+alias lr='ll -R'
+alias ls='ls --group-directories-first --color=auto'
+alias lt='ll -tr'
+alias lx='ll -X'
+alias vc="vimcat"
+alias mv="mv -vi"
+alias rm="rm -v"
+alias cp="cp -vi"
+alias ln="ln -v"
+alias md="mkdir -pv"
+
+alias sc="systemctl"
+alias scs="systemctl status"
+alias scu="systemctl --user"
+alias scuss="scu status"
+alias scuen="scu enable"
+alias scuds="scu disable"
+alias scust="scu start"
+alias scusp="scu stop"
+alias sa="systemd-analyze "
+alias sau="sa --user"
+alias sauv="sau verify"
+
+# alias scst="echo start service;systemctl start"
+# alias scsp="echo stop service;systemctl stop"
+# alias scrt="echo service restart;systemctl restart"
+# alias scen="echo enable service;systemctl enable"
+# alias scds="echo disable service;systemctl disable"
+
+alias yayv="yay -V"
+
+alias ys="yay -S"
+alias ysh="yay -Sh"
+alias yss="yay -Ss"
+alias ysdep="yay -S --asdeps"
+alias ysi="yay -Si"
+alias ysii="yay -Sii"
+
+alias yq="yay -Q"
+alias yqh="yay -Qh"
+alias yqi="yay -Qi"
+alias yqii="yay -Qii"
+alias yql="yay -Ql"
+alias yqo="yay -Qo"
+alias yqs="yay -Qs"
+alias yqtdq="yay -Qtdq"
+
+alias yf="yay -F"
+alias yfh="yay -Fh"
+alias yfl="yay -Fl"
+alias yfs="yay -Fs"
+alias yfo="yay -Fo"
+
+alias pcv="pacman -V"
+
+alias pcs="pacman -S"
+alias pcsh="pacman -Sh"
+alias pcsdep="pacman -S --asdeps"
+alias pcsi="pacman -Si"
+alias pcsii="pacman -Sii"
+alias pcss="pacman -Ss"
+alias pcsyu="pacman -Syu"
+alias pcsyuw="pacman -Syuw"
+
+alias pcq="pacman -Q"
+alias pcqh="pacman -Qh"
+alias pcqi="pacman -Qi"
+alias pcqii="pacman -Qii"
+alias pcql="pacman -Ql"
+alias pcqo="pacman -Qo"
+alias pcqs="pacman -Qs"
+alias pcqtdq="pacman -Qtdq"
+alias pcqm="pacman -Qm"
+
+alias pcr="pacman -R"
+alias pcrh="pacman -Rh"
+alias pcrs="pacman -Rs"
+
+alias pcf="pacman -F"
+alias pcfh="pacman -Fh"
+alias pcfs="pacman -Fs"
+alias pcfl="pacman -Fl"
+alias pcfo="pacman -Fo"
+
+alias pcd="pacman -D"
+alias pcdh="pacman -Dh"
+alias pcde="pacman -D --asexplicit"
+alias pcdd="pacman -D --asdeps"
